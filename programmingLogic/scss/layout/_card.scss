@@ -1,0 +1,40 @@
+// ======================================
+//  Card Styles
+// ======================================
+
+.card {
+//  display: flex;
+//  flex-direction: column;
+  @include flexy($dir: column);
+  padding: 1.5em 1em;
+  border: 1px solid $color-shade;
+  border-radius: 0.25em;
+  margin: $gutter;
+  h1 {
+    color: $color-primary;
+    margin: 0.35em 0 0;
+    line-height: 1.25;
+  }
+//  @include mq('sm'){
+//    flex: 1 per-line(2);
+//  
+//  }
+//  @include mq('lg'){
+//    flex-basis: 1 per-line(3);
+//  
+//}
+//  }
+
+
+@media (min-width: $break-s) {  
+    flex: 1 per-line(2);
+}
+ @media (min-width: $break-l) {    
+     flex: 1 per-line(3);
+
+}
+}
+
+
+
+

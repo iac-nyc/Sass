@@ -1,0 +1,44 @@
+// ======================================
+//  Layout Container Styles
+// ======================================
+
+// Main content
+.main-content {
+//  display: flex;
+//  flex-wrap: wrap;
+  
+    @include flexy($wrap: wrap);
+    //@media (min-width: $break-m) {
+     @include mq('med'){
+       @include center(90%);  
+    }
+  
+}  
+
+
+
+// Inner
+.inner {
+  padding: 0.5em 1em;
+}
+
+
+// Intro
+.intro {
+  margin: auto;
+  padding: 1em 1em 3em; 
+  p {
+    font-size: 1.2em; 
+     padding: 1em 1em 3em; 
+    width: 60%;
+    margin: auto;
+  }  
+    //@media (min-width: $break-l) {
+  @include mq('lg'){
+        width: 45%;
+    
+  }
+}
+
+
+
