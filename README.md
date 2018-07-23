@@ -12,11 +12,11 @@
 7. sass --watch scss:css
 
 **Refactoring:**
-01: Break related sections out into partials.
-02: Extract repeating patterns into extends / Placeholder selectors
-03: Nest rules where it makes sense
-04: Create variables for repetitive values
-05: Convert repeating declaration groups into mixins
+01. Break related sections out into partials.
+02. Extract repeating patterns into extends / Placeholder selectors
+03. Nest rules where it makes sense
+04. Create variables for repetitive values
+05. Convert repeating declaration groups into mixins
 
 
 **Process:**
